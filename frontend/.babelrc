@@ -1,0 +1,19 @@
+{
+    "presets": ["next/babel"],
+    "plugins": [
+      [
+        "module-resolver",
+        {
+          "root": ["./"],
+          "alias": {
+            "@Components": "./src/components",
+            "@Libs": "./src/libs",  
+            "@Pages": "./src/pages",
+            "@Styled": "./src/styled"
+          }
+        },
+        "@babel/plugin-proposal-do-expressions"
+      ]
+      
+    ]
+  }

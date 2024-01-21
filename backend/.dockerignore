@@ -1,0 +1,5 @@
+# .dockerignore
+
+# Ignore the .venv folder
+.venv/
+.venv
